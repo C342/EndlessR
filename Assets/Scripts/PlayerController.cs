@@ -2,11 +2,10 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float jumpForce = 10f;
