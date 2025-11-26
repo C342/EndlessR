@@ -31,7 +31,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         // Constant Forward movement
-        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
 
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
@@ -47,7 +47,7 @@ public class NewBehaviourScript : MonoBehaviour
     private void Jump()
     {
 
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
 
     }
 
