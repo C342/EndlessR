@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc9057a256c5434c97690ea4fda62f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1974197924998500328}
   parallaxSpeed: 0.5
 --- !u!1 &131976023
 GameObject:
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc9057a256c5434c97690ea4fda62f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1974197924998500328}
   parallaxSpeed: 0.5
 --- !u!1 &200592935
 GameObject:
@@ -2569,7 +2569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc9057a256c5434c97690ea4fda62f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1974197924998500328}
   parallaxSpeed: 0.5
 --- !u!1001 &1974197924998500327
 PrefabInstance:

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    public Transform player;      // Assign player transform in the inspector
+    public Transform player;
     public float parallaxSpeed = 0.5f;
 
     private float startPosition;
@@ -16,7 +16,7 @@ public class Parallax : MonoBehaviour
         rend = GetComponent<Renderer>();
 
         if (player == null)
-            player = GameObject.Find("Player").transform; // fallback
+            player = GameObject.Find("Player").transform;
 
         startPosition = player.position.x;
     }
